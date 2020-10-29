@@ -4,6 +4,11 @@
   box-sizing: border-box;
 } */
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -16,4 +21,19 @@ header {
 header nav {
   display: flex;
   justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  font-size: 1.3rem;
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-right-section a {
+  margin-right: 10px;
+  color: #000000;
 }
